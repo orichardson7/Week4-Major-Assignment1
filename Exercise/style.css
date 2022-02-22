@@ -1,0 +1,55 @@
+body
+{
+    background-color:rgb(121, 111, 119)
+}
+input[type=text]
+{
+    width: 90%;
+}
+input[type=submit]
+{
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius:5px;
+}
+input[type=reset]
+{
+    color: white;
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius:5px;
+}
+div
+{
+    margin: 15%;
+    color: #555;
+    padding: 25px;
+    border: solid 1px #555;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    -o-box-shadow: 10px -10px 5px  rgba(0,0,0,0.6);
+    border-radius:25px;
+}
+#boxSmall
+{
+    padding: 10px;
+    width:150px;
+}
+
+#boxLarge
+{
+    width:150px;
+}
+#blank
+{
+    width: 80px;
+    background-color: transparent;
+    border: solid 0px transparent;
+    box-shadow: none;
+    -moz-box-shadow: 0;
+    -webkit-box-shadow: 0;
+    -o-box-shadow: 0;
+}
